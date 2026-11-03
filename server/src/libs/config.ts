@@ -13,10 +13,10 @@ export const GEMINI_RETRIES = 2;
 export const GEMINI_RETRY_DELAY = 1000;
 
 /** Bitta Gemini so'rovi uchun maksimal kutish (ms) — oshsa keyingi modelga o'tiladi */
-export const GEMINI_TIMEOUT = 20000; // bepul tier band paytida asosiy model 15-25s javob berishi mumkin
+export const GEMINI_TIMEOUT = 10000;
 
 /** Barcha urinishlar uchun umumiy chegara (ms) — foydalanuvchi bundan ko'p kutmaydi */
-export const GEMINI_TOTAL_TIMEOUT = 30000;
+export const GEMINI_TOTAL_TIMEOUT = 20000;
 
 /** AI natijalarini keshda saqlash muddati (ms) — 1 soat */
 export const AI_CACHE_TTL = 60 * 60 * 1000;

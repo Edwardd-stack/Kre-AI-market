@@ -85,6 +85,7 @@ const en: typeof ko = {
     waitingOperator: "Connecting you to an operator… AI will help if there's no reply in {{minutes}} min.",
     systemAiUnavailable: "AI can't respond right now. Please try again in a moment, or contact an operator during support hours (Mon–Fri 09–18 KST).",
     demoTitle: "Demo mode",
+    demoHint: "Demo only: try operator and AI modes without waiting for support hours. Disabled in a real service.",
     demoAuto: "Auto (KST)",
     demoHuman: "Operator",
     demoAi: "AI",

@@ -1,4 +1,5 @@
-import { Avatar, Box, Card, CardContent, Divider, Stack, ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
+import { Avatar, Box, Card, CardContent, Divider, Stack, ToggleButton, ToggleButtonGroup, Tooltip, Typography } from "@mui/material";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { keyframes } from "@mui/material/styles";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
@@ -96,9 +97,14 @@ export default function StatusCard({ status, demoMode, onDemoChange }: StatusCar
         {status?.demoEnabled && (
           <>
             <Divider sx={{ my: 2 }} />
-            <Typography variant="caption" sx={{ fontWeight: 700, color: "secondary.dark", display: "block", mb: 1 }}>
-              🧪 {t("support.demoTitle")}
-            </Typography>
+            <Stack direction="row" spacing={0.5} sx={{ alignItems: "center", mb: 1 }}>
+              <Typography variant="caption" sx={{ fontWeight: 700, color: "secondary.dark" }}>
+                🧪 {t("support.demoTitle")}
+              </Typography>
+              <Tooltip title={t("support.demoHint")} arrow placement="top">
+                <InfoOutlinedIcon sx={{ fontSize: 16, color: "text.secondary", cursor: "help" }} />
+              </Tooltip>
+            </Stack>
             <ToggleButtonGroup
               size="small"
               exclusive

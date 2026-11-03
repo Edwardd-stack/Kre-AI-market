@@ -83,6 +83,7 @@ const ko = {
     waitingOperator: "상담원 연결 중입니다… {{minutes}}분 내 답변이 없으면 AI가 도와드립니다.",
     systemAiUnavailable: "지금은 AI가 응답할 수 없습니다. 잠시 후 다시 시도하시거나 상담 시간(평일 09–18시)에 상담원에게 문의해 주세요.",
     demoTitle: "데모 모드",
+    demoHint: "데모 전용: 상담 시간을 기다리지 않고 상담원/AI 모드를 직접 테스트할 수 있습니다. 실제 서비스에서는 비활성화됩니다.",
     demoAuto: "자동 (KST)",
     demoHuman: "상담원",
     demoAi: "AI",

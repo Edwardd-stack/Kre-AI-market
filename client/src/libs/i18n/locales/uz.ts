@@ -89,6 +89,7 @@ const uz: typeof ko = {
     waitingOperator: "Operatorga ulanmoqda… {{minutes}} daqiqada javob bo'lmasa, AI yordam beradi.",
     systemAiUnavailable: "AI hozir javob bera olmayapti. Birozdan keyin qayta urinib ko'ring yoki ish vaqtida (Du–Ju 09–18 KST) operatorga murojaat qiling.",
     demoTitle: "Demo rejim",
+    demoHint: "Faqat demo uchun: ish vaqtini kutmasdan operator va AI rejimlarini sinab ko'ring. Haqiqiy xizmatda o'chiriladi.",
     demoAuto: "Avto (KST)",
     demoHuman: "Operator",
     demoAi: "AI",
