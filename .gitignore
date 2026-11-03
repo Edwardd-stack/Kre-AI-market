@@ -3,3 +3,9 @@ dist/
 
 .env
 .DS_Store
+
+
+.postman/
+postman/
+# Rasmlar webp'ga o'girilishidan oldingi asl fayllar
+client/raw-images/

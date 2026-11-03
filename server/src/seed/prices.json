@@ -1,0 +1,1682 @@
+[
+  {
+    "priceDate": "2026-08-11",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58790
+  },
+  {
+    "priceDate": "2026-08-11",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54680
+  },
+  {
+    "priceDate": "2026-08-11",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50560
+  },
+  {
+    "priceDate": "2026-08-11",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47030
+  },
+  {
+    "priceDate": "2026-08-12",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58660
+  },
+  {
+    "priceDate": "2026-08-12",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54550
+  },
+  {
+    "priceDate": "2026-08-12",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50440
+  },
+  {
+    "priceDate": "2026-08-12",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 46930
+  },
+  {
+    "priceDate": "2026-08-13",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58720
+  },
+  {
+    "priceDate": "2026-08-13",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54610
+  },
+  {
+    "priceDate": "2026-08-13",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50500
+  },
+  {
+    "priceDate": "2026-08-13",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 46980
+  },
+  {
+    "priceDate": "2026-08-14",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58570
+  },
+  {
+    "priceDate": "2026-08-14",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54470
+  },
+  {
+    "priceDate": "2026-08-14",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50370
+  },
+  {
+    "priceDate": "2026-08-14",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 46860
+  },
+  {
+    "priceDate": "2026-08-17",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58770
+  },
+  {
+    "priceDate": "2026-08-17",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54660
+  },
+  {
+    "priceDate": "2026-08-17",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50550
+  },
+  {
+    "priceDate": "2026-08-17",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47020
+  },
+  {
+    "priceDate": "2026-08-18",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58980
+  },
+  {
+    "priceDate": "2026-08-18",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54850
+  },
+  {
+    "priceDate": "2026-08-18",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50720
+  },
+  {
+    "priceDate": "2026-08-18",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47180
+  },
+  {
+    "priceDate": "2026-08-19",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58860
+  },
+  {
+    "priceDate": "2026-08-19",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54740
+  },
+  {
+    "priceDate": "2026-08-19",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50620
+  },
+  {
+    "priceDate": "2026-08-19",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47090
+  },
+  {
+    "priceDate": "2026-08-20",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58920
+  },
+  {
+    "priceDate": "2026-08-20",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54790
+  },
+  {
+    "priceDate": "2026-08-20",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50670
+  },
+  {
+    "priceDate": "2026-08-20",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47140
+  },
+  {
+    "priceDate": "2026-08-21",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59010
+  },
+  {
+    "priceDate": "2026-08-21",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54880
+  },
+  {
+    "priceDate": "2026-08-21",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50750
+  },
+  {
+    "priceDate": "2026-08-21",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47210
+  },
+  {
+    "priceDate": "2026-08-24",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58970
+  },
+  {
+    "priceDate": "2026-08-24",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54840
+  },
+  {
+    "priceDate": "2026-08-24",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50710
+  },
+  {
+    "priceDate": "2026-08-24",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47170
+  },
+  {
+    "priceDate": "2026-08-25",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59220
+  },
+  {
+    "priceDate": "2026-08-25",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55080
+  },
+  {
+    "priceDate": "2026-08-25",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50930
+  },
+  {
+    "priceDate": "2026-08-25",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47380
+  },
+  {
+    "priceDate": "2026-08-26",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59250
+  },
+  {
+    "priceDate": "2026-08-26",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55110
+  },
+  {
+    "priceDate": "2026-08-26",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50960
+  },
+  {
+    "priceDate": "2026-08-26",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47400
+  },
+  {
+    "priceDate": "2026-08-27",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59180
+  },
+  {
+    "priceDate": "2026-08-27",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55040
+  },
+  {
+    "priceDate": "2026-08-27",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50890
+  },
+  {
+    "priceDate": "2026-08-27",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47340
+  },
+  {
+    "priceDate": "2026-08-28",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59270
+  },
+  {
+    "priceDate": "2026-08-28",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55120
+  },
+  {
+    "priceDate": "2026-08-28",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50970
+  },
+  {
+    "priceDate": "2026-08-28",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47420
+  },
+  {
+    "priceDate": "2026-08-31",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59450
+  },
+  {
+    "priceDate": "2026-08-31",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55290
+  },
+  {
+    "priceDate": "2026-08-31",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51130
+  },
+  {
+    "priceDate": "2026-08-31",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47560
+  },
+  {
+    "priceDate": "2026-09-01",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59380
+  },
+  {
+    "priceDate": "2026-09-01",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55220
+  },
+  {
+    "priceDate": "2026-09-01",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51060
+  },
+  {
+    "priceDate": "2026-09-01",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47500
+  },
+  {
+    "priceDate": "2026-09-02",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59350
+  },
+  {
+    "priceDate": "2026-09-02",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55200
+  },
+  {
+    "priceDate": "2026-09-02",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51040
+  },
+  {
+    "priceDate": "2026-09-02",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47480
+  },
+  {
+    "priceDate": "2026-09-03",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59670
+  },
+  {
+    "priceDate": "2026-09-03",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55490
+  },
+  {
+    "priceDate": "2026-09-03",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51320
+  },
+  {
+    "priceDate": "2026-09-03",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47730
+  },
+  {
+    "priceDate": "2026-09-04",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59810
+  },
+  {
+    "priceDate": "2026-09-04",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55630
+  },
+  {
+    "priceDate": "2026-09-04",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51440
+  },
+  {
+    "priceDate": "2026-09-04",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47850
+  },
+  {
+    "priceDate": "2026-09-07",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59850
+  },
+  {
+    "priceDate": "2026-09-07",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55660
+  },
+  {
+    "priceDate": "2026-09-07",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51470
+  },
+  {
+    "priceDate": "2026-09-07",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47880
+  },
+  {
+    "priceDate": "2026-09-08",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59930
+  },
+  {
+    "priceDate": "2026-09-08",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55740
+  },
+  {
+    "priceDate": "2026-09-08",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51540
+  },
+  {
+    "priceDate": "2026-09-08",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47950
+  },
+  {
+    "priceDate": "2026-09-09",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59810
+  },
+  {
+    "priceDate": "2026-09-09",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55630
+  },
+  {
+    "priceDate": "2026-09-09",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51440
+  },
+  {
+    "priceDate": "2026-09-09",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47850
+  },
+  {
+    "priceDate": "2026-09-10",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59740
+  },
+  {
+    "priceDate": "2026-09-10",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55560
+  },
+  {
+    "priceDate": "2026-09-10",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51380
+  },
+  {
+    "priceDate": "2026-09-10",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47800
+  },
+  {
+    "priceDate": "2026-09-11",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59730
+  },
+  {
+    "priceDate": "2026-09-11",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55550
+  },
+  {
+    "priceDate": "2026-09-11",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51370
+  },
+  {
+    "priceDate": "2026-09-11",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47790
+  },
+  {
+    "priceDate": "2026-09-14",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59850
+  },
+  {
+    "priceDate": "2026-09-14",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55660
+  },
+  {
+    "priceDate": "2026-09-14",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51470
+  },
+  {
+    "priceDate": "2026-09-14",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47880
+  },
+  {
+    "priceDate": "2026-09-15",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59780
+  },
+  {
+    "priceDate": "2026-09-15",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55600
+  },
+  {
+    "priceDate": "2026-09-15",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51410
+  },
+  {
+    "priceDate": "2026-09-15",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47830
+  },
+  {
+    "priceDate": "2026-09-16",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59710
+  },
+  {
+    "priceDate": "2026-09-16",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55530
+  },
+  {
+    "priceDate": "2026-09-16",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51350
+  },
+  {
+    "priceDate": "2026-09-16",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47770
+  },
+  {
+    "priceDate": "2026-09-17",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59570
+  },
+  {
+    "priceDate": "2026-09-17",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55400
+  },
+  {
+    "priceDate": "2026-09-17",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51230
+  },
+  {
+    "priceDate": "2026-09-17",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47650
+  },
+  {
+    "priceDate": "2026-09-18",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59700
+  },
+  {
+    "priceDate": "2026-09-18",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55520
+  },
+  {
+    "priceDate": "2026-09-18",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51350
+  },
+  {
+    "priceDate": "2026-09-18",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47760
+  },
+  {
+    "priceDate": "2026-09-21",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59640
+  },
+  {
+    "priceDate": "2026-09-21",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55460
+  },
+  {
+    "priceDate": "2026-09-21",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51290
+  },
+  {
+    "priceDate": "2026-09-21",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47710
+  },
+  {
+    "priceDate": "2026-09-22",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59910
+  },
+  {
+    "priceDate": "2026-09-22",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55720
+  },
+  {
+    "priceDate": "2026-09-22",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51520
+  },
+  {
+    "priceDate": "2026-09-22",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47930
+  },
+  {
+    "priceDate": "2026-09-23",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60160
+  },
+  {
+    "priceDate": "2026-09-23",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55950
+  },
+  {
+    "priceDate": "2026-09-23",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51740
+  },
+  {
+    "priceDate": "2026-09-23",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48130
+  },
+  {
+    "priceDate": "2026-09-24",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60020
+  },
+  {
+    "priceDate": "2026-09-24",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55820
+  },
+  {
+    "priceDate": "2026-09-24",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51610
+  },
+  {
+    "priceDate": "2026-09-24",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48010
+  },
+  {
+    "priceDate": "2026-09-25",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59960
+  },
+  {
+    "priceDate": "2026-09-25",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55760
+  },
+  {
+    "priceDate": "2026-09-25",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51560
+  },
+  {
+    "priceDate": "2026-09-25",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47960
+  },
+  {
+    "priceDate": "2026-09-28",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60110
+  },
+  {
+    "priceDate": "2026-09-28",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55900
+  },
+  {
+    "priceDate": "2026-09-28",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51690
+  },
+  {
+    "priceDate": "2026-09-28",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48090
+  },
+  {
+    "priceDate": "2026-09-29",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59850
+  },
+  {
+    "priceDate": "2026-09-29",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55660
+  },
+  {
+    "priceDate": "2026-09-29",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51470
+  },
+  {
+    "priceDate": "2026-09-29",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47880
+  },
+  {
+    "priceDate": "2026-09-30",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59540
+  },
+  {
+    "priceDate": "2026-09-30",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55370
+  },
+  {
+    "priceDate": "2026-09-30",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51210
+  },
+  {
+    "priceDate": "2026-09-30",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47630
+  },
+  {
+    "priceDate": "2026-10-01",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59640
+  },
+  {
+    "priceDate": "2026-10-01",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55470
+  },
+  {
+    "priceDate": "2026-10-01",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51290
+  },
+  {
+    "priceDate": "2026-10-01",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47710
+  },
+  {
+    "priceDate": "2026-10-02",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59560
+  },
+  {
+    "priceDate": "2026-10-02",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55390
+  },
+  {
+    "priceDate": "2026-10-02",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51220
+  },
+  {
+    "priceDate": "2026-10-02",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47640
+  },
+  {
+    "priceDate": "2026-10-05",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59420
+  },
+  {
+    "priceDate": "2026-10-05",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55260
+  },
+  {
+    "priceDate": "2026-10-05",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51100
+  },
+  {
+    "priceDate": "2026-10-05",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47540
+  },
+  {
+    "priceDate": "2026-10-06",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59440
+  },
+  {
+    "priceDate": "2026-10-06",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55280
+  },
+  {
+    "priceDate": "2026-10-06",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51120
+  },
+  {
+    "priceDate": "2026-10-06",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47560
+  },
+  {
+    "priceDate": "2026-10-07",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59480
+  },
+  {
+    "priceDate": "2026-10-07",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55320
+  },
+  {
+    "priceDate": "2026-10-07",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51150
+  },
+  {
+    "priceDate": "2026-10-07",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47580
+  },
+  {
+    "priceDate": "2026-10-08",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59200
+  },
+  {
+    "priceDate": "2026-10-08",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55060
+  },
+  {
+    "priceDate": "2026-10-08",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50920
+  },
+  {
+    "priceDate": "2026-10-08",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47360
+  },
+  {
+    "priceDate": "2026-10-09",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58880
+  },
+  {
+    "priceDate": "2026-10-09",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54760
+  },
+  {
+    "priceDate": "2026-10-09",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50640
+  },
+  {
+    "priceDate": "2026-10-09",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47110
+  },
+  {
+    "priceDate": "2026-10-12",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58730
+  },
+  {
+    "priceDate": "2026-10-12",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54620
+  },
+  {
+    "priceDate": "2026-10-12",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50510
+  },
+  {
+    "priceDate": "2026-10-12",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 46980
+  },
+  {
+    "priceDate": "2026-10-13",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58850
+  },
+  {
+    "priceDate": "2026-10-13",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54730
+  },
+  {
+    "priceDate": "2026-10-13",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50610
+  },
+  {
+    "priceDate": "2026-10-13",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47080
+  },
+  {
+    "priceDate": "2026-10-14",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 58990
+  },
+  {
+    "priceDate": "2026-10-14",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 54860
+  },
+  {
+    "priceDate": "2026-10-14",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50730
+  },
+  {
+    "priceDate": "2026-10-14",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47190
+  },
+  {
+    "priceDate": "2026-10-15",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59270
+  },
+  {
+    "priceDate": "2026-10-15",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55120
+  },
+  {
+    "priceDate": "2026-10-15",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 50970
+  },
+  {
+    "priceDate": "2026-10-15",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47410
+  },
+  {
+    "priceDate": "2026-10-16",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59510
+  },
+  {
+    "priceDate": "2026-10-16",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55350
+  },
+  {
+    "priceDate": "2026-10-16",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51180
+  },
+  {
+    "priceDate": "2026-10-16",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47610
+  },
+  {
+    "priceDate": "2026-10-19",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59920
+  },
+  {
+    "priceDate": "2026-10-19",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55720
+  },
+  {
+    "priceDate": "2026-10-19",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51530
+  },
+  {
+    "priceDate": "2026-10-19",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47930
+  },
+  {
+    "priceDate": "2026-10-20",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59880
+  },
+  {
+    "priceDate": "2026-10-20",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55680
+  },
+  {
+    "priceDate": "2026-10-20",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51490
+  },
+  {
+    "priceDate": "2026-10-20",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47900
+  },
+  {
+    "priceDate": "2026-10-21",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 59990
+  },
+  {
+    "priceDate": "2026-10-21",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55790
+  },
+  {
+    "priceDate": "2026-10-21",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51590
+  },
+  {
+    "priceDate": "2026-10-21",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 47990
+  },
+  {
+    "priceDate": "2026-10-22",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60070
+  },
+  {
+    "priceDate": "2026-10-22",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 55860
+  },
+  {
+    "priceDate": "2026-10-22",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51660
+  },
+  {
+    "priceDate": "2026-10-22",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48050
+  },
+  {
+    "priceDate": "2026-10-23",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60410
+  },
+  {
+    "priceDate": "2026-10-23",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 56180
+  },
+  {
+    "priceDate": "2026-10-23",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51950
+  },
+  {
+    "priceDate": "2026-10-23",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48330
+  },
+  {
+    "priceDate": "2026-10-26",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60440
+  },
+  {
+    "priceDate": "2026-10-26",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 56210
+  },
+  {
+    "priceDate": "2026-10-26",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51980
+  },
+  {
+    "priceDate": "2026-10-26",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48350
+  },
+  {
+    "priceDate": "2026-10-27",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60450
+  },
+  {
+    "priceDate": "2026-10-27",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 56220
+  },
+  {
+    "priceDate": "2026-10-27",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 51980
+  },
+  {
+    "priceDate": "2026-10-27",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48360
+  },
+  {
+    "priceDate": "2026-10-28",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60580
+  },
+  {
+    "priceDate": "2026-10-28",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 56340
+  },
+  {
+    "priceDate": "2026-10-28",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 52100
+  },
+  {
+    "priceDate": "2026-10-28",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48460
+  },
+  {
+    "priceDate": "2026-10-29",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60700
+  },
+  {
+    "priceDate": "2026-10-29",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 56450
+  },
+  {
+    "priceDate": "2026-10-29",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 52200
+  },
+  {
+    "priceDate": "2026-10-29",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48560
+  },
+  {
+    "priceDate": "2026-10-30",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60750
+  },
+  {
+    "priceDate": "2026-10-30",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 56500
+  },
+  {
+    "priceDate": "2026-10-30",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 52250
+  },
+  {
+    "priceDate": "2026-10-30",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48600
+  },
+  {
+    "priceDate": "2026-11-02",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 60790
+  },
+  {
+    "priceDate": "2026-11-02",
+    "priceMarketType": "RETAIL",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 56530
+  },
+  {
+    "priceDate": "2026-11-02",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "HIGH",
+    "priceUnitKg": 20,
+    "priceAmount": 52280
+  },
+  {
+    "priceDate": "2026-11-02",
+    "priceMarketType": "WHOLESALE",
+    "priceGrade": "MEDIUM",
+    "priceUnitKg": 20,
+    "priceAmount": 48630
+  }
+]

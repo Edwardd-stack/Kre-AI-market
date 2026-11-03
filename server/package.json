@@ -4,9 +4,11 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "start": "node dist/server.js",
+    "seed": "ts-node src/seed/seed.ts",
     "dev": "nodemon --exec ts-node src/server.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "ai:bench": "ts-node src/scripts/ai-benchmark.ts"
   },
   "keywords": [],
   "author": "Sardorbek",
@@ -27,5 +29,8 @@
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
