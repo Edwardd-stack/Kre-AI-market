@@ -1,6 +1,7 @@
 import Errors, { HttpCode, Message } from "../libs/Errors";
 import { Product, ProductInquiry } from "../libs/types/product";
 import { T } from "../libs/types/common";
+import { escapeRegex } from "../libs/config";
 import { ProductStatus } from "../libs/enums/product.enum";
 import ProductModel from "../schema/Product.model";
 
@@ -29,7 +30,7 @@ class ProductService {
         if (inquiry.productCertifications?.length)
             match.productCertifications = { $all: inquiry.productCertifications };
         if (inquiry.search)
-            match.productName = { $regex: new RegExp(inquiry.search, "i") };
+            match.productName = { $regex: new RegExp(escapeRegex(inquiry.search), "i") };
 
         return match;
     }
@@ -52,6 +53,16 @@ class ProductService {
         if (!result) throw new Errors(HttpCode.NOT_FOUND, Message.NO_DATA_FOUND);
 
         return result;
+    }
+
+    /** Bazadagi mavjud viloyat va navlar — AI'ga "faqat shulardan tanla" deb beriladi */
+    public async getFilterOptions(): Promise<{ provinces: string[]; varieties: string[] }> {
+        const match = { productStatus: ProductStatus.PROCESS };
+        const [provinces, varieties] = await Promise.all([
+            this.productModel.distinct("productProvince", match).exec(),
+            this.productModel.distinct("productVariety", match).exec(),
+        ]);
+        return { provinces: provinces as string[], varieties: varieties as string[] };
     }
 
     public async getProduct(id: string): Promise<Product> {
