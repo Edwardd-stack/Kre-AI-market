@@ -1,11 +1,11 @@
 import { useState } from "react";
 import type { MouseEvent } from "react";
 import { Box, Button, ListItemIcon, ListItemText, Menu, MenuItem, Typography } from "@mui/material";
-import LanguageIcon from "@mui/icons-material/Language";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CheckRoundedIcon from "@mui/icons-material/CheckRounded";
 import { useTranslation } from "react-i18next";
 import { Lang } from "../../../libs/enums/ai.enum";
+import FlagIcon from "./FlagIcon";
 
 /** Har bir til o'z yozuvida + qisqa kodi */
 const LANGUAGES: { code: Lang; native: string; english: string }[] = [
@@ -15,25 +15,19 @@ const LANGUAGES: { code: Lang; native: string; english: string }[] = [
   { code: Lang.UZ, native: "O'zbekcha", english: "Uzbek" },
 ];
 
-/** Til kodi uchun kichik "nishon" (badge) */
-function CodeBadge({ code, active }: { code: Lang; active: boolean }) {
+/** Menyudagi bayroq: tanlangan til oltin halqa bilan ajratiladi */
+function FlagBadge({ code, active }: { code: Lang; active: boolean }) {
   return (
     <Box
       sx={{
-        width: 30,
-        height: 30,
+        p: "2px",
         borderRadius: "50%",
-        display: "grid",
-        placeItems: "center",
-        fontSize: 11,
-        fontWeight: 800,
-        letterSpacing: "0.04em",
-        color: active ? "#1B1B1B" : "primary.dark",
-        bgcolor: active ? "secondary.main" : "#EEF3EF",
+        border: "2px solid",
+        borderColor: active ? "secondary.main" : "transparent",
         transition: "0.2s",
       }}
     >
-      {code.toUpperCase()}
+      <FlagIcon lang={code} size={26} />
     </Box>
   );
 }
@@ -56,7 +50,7 @@ export default function LanguageSwitcher() {
         onClick={open}
         aria-haspopup="menu"
         aria-expanded={Boolean(anchor)}
-        startIcon={<LanguageIcon />}
+        startIcon={<FlagIcon lang={current.code} size={22} />}
         endIcon={
           <KeyboardArrowDownIcon
             sx={{ transition: "transform 0.2s", transform: anchor ? "rotate(180deg)" : "none" }}
@@ -113,7 +107,7 @@ export default function LanguageSwitcher() {
                 "&.Mui-selected:hover": { bgcolor: "#FFF2D1" },
               }}
             >
-              <CodeBadge code={lang.code} active={active} />
+              <FlagBadge code={lang.code} active={active} />
               <ListItemText
                 primary={lang.native}
                 secondary={lang.english}
