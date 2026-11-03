@@ -4,6 +4,7 @@ import BoltIcon from "@mui/icons-material/Bolt";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import { useTranslation } from "react-i18next";
 import { formatWon } from "../../../libs/config";
+import { localizeProduct } from "../../../libs/i18n/localizeProduct";
 import { ProductCategory } from "../../../libs/enums/product.enum";
 import type { Product } from "../../../libs/types/product";
 
@@ -17,15 +18,27 @@ const CATEGORY_BG: Record<ProductCategory, string> = {
 export default function ProductCard({ product }: { product: Product }) {
   const { t, i18n } = useTranslation();
   const lang = i18n.language;
+  const text = localizeProduct(product, t, lang);
+  const image = product.productImages[0]; // rasm bo'lmasa — rangli fon + ikonka
 
   return (
     <Card sx={{ height: "100%", display: "flex", flexDirection: "column", transition: "0.2s", "&:hover": { transform: "translateY(-3px)", boxShadow: "0 10px 24px rgba(0,0,0,0.08)" } }}>
-      <Box sx={{ position: "relative", height: 120, background: CATEGORY_BG[product.productCategory], display: "grid", placeItems: "center" }}>
-        <GrainIcon sx={{ fontSize: 56, color: "rgba(31,94,59,0.35)" }} />
+      <Box sx={{ position: "relative", height: 170, overflow: "hidden", background: CATEGORY_BG[product.productCategory], display: "grid", placeItems: "center" }}>
+        {image ? (
+          <Box
+            component="img"
+            src={image}
+            alt={text.name}
+            loading="lazy"
+            sx={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.4s", ".MuiCard-root:hover &": { transform: "scale(1.05)" } }}
+          />
+        ) : (
+          <GrainIcon sx={{ fontSize: 56, color: "rgba(31,94,59,0.35)" }} />
+        )}
         <Chip
           size="small"
           label={t(`category.${product.productCategory}`)}
-          sx={{ position: "absolute", top: 10, left: 10, bgcolor: "#fff" }}
+          sx={{ position: "absolute", top: 10, left: 10, bgcolor: "rgba(255,255,255,0.92)", backdropFilter: "blur(4px)" }}
         />
         {product.productMilledToday && (
           <Chip
@@ -40,10 +53,10 @@ export default function ProductCard({ product }: { product: Product }) {
 
       <CardContent sx={{ flexGrow: 1, display: "flex", flexDirection: "column", gap: 1 }}>
         <Typography variant="caption" color="text.secondary">
-          {product.productProvince} · {product.productRegion} · {product.productVariety}
+          {text.province} · {text.region} · {text.variety}
         </Typography>
         <Typography variant="subtitle1" sx={{ fontWeight: 700, lineHeight: 1.3 }}>
-          {product.productName}
+          {text.name}
         </Typography>
 
         <Stack direction="row" sx={{ flexWrap: "wrap", gap: 0.5 }}>
@@ -67,7 +80,7 @@ export default function ProductCard({ product }: { product: Product }) {
           <Stack direction="row" spacing={0.5} sx={{ alignItems: "center" }}>
             <StorefrontIcon sx={{ fontSize: 16, color: "text.secondary" }} />
             <Typography variant="caption" color="text.secondary">
-              {product.productSellerName}
+              {text.seller}
             </Typography>
           </Stack>
           <Typography variant="caption" color="text.secondary">

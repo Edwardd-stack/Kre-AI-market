@@ -2,6 +2,7 @@ import { Button, Chip, Paper, Stack, Typography } from "@mui/material";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import { useTranslation } from "react-i18next";
 import { formatWon } from "../../../libs/config";
+import { PROVINCES, VARIETIES, translatePlace } from "../../../libs/i18n/places";
 import type { ProductInquiry } from "../../../libs/types/product";
 
 interface FilterSummaryProps {
@@ -16,8 +17,8 @@ export default function FilterSummary({ query, filter, onReset }: FilterSummaryP
   const lang = i18n.language;
 
   const chips: string[] = [];
-  if (filter.productProvince) chips.push(`${t("filter.productProvince")}: ${filter.productProvince}`);
-  if (filter.productVariety) chips.push(`${t("filter.productVariety")}: ${filter.productVariety}`);
+  if (filter.productProvince) chips.push(`${t("filter.productProvince")}: ${translatePlace(PROVINCES, filter.productProvince, lang)}`);
+  if (filter.productVariety) chips.push(`${t("filter.productVariety")}: ${translatePlace(VARIETIES, filter.productVariety, lang)}`);
   if (filter.productCategory) chips.push(`${t("filter.productCategory")}: ${t(`category.${filter.productCategory}`)}`);
   if (filter.productWeightKg) chips.push(`${t("filter.productWeightKg")}: ${filter.productWeightKg}kg`);
   if (filter.maxPrice) chips.push(`${t("filter.maxPrice")}: ${formatWon(filter.maxPrice, lang)}`);

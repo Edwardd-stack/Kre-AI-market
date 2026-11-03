@@ -7,3 +7,5 @@ dist/
 
 .postman/
 postman/
+# Rasmlar webp'ga o'girilishidan oldingi asl fayllar
+client/raw-images/

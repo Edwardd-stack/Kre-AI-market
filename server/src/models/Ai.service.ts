@@ -2,10 +2,12 @@ import { GenerateContentConfig, GoogleGenAI } from "@google/genai";
 import Errors, { HttpCode, Message } from "../libs/Errors";
 import {
     AI_CACHE_TTL,
+    AI_RESULT_LIMIT,
     GEMINI_MODELS,
     GEMINI_RETRIES,
     GEMINI_RETRY_DELAY,
     GEMINI_TIMEOUT,
+    GEMINI_TOTAL_TIMEOUT,
 } from "../libs/config";
 import { T } from "../libs/types/common";
 import { ProductInquiry } from "../libs/types/product";
@@ -18,6 +20,7 @@ import {
     PriceStat,
 } from "../libs/types/ai";
 import { Lang } from "../libs/enums/ai.enum";
+import { ChatSender } from "../libs/enums/chat.enum";
 import { ProductCategory, ProductCertification } from "../libs/enums/product.enum";
 import AiQueryLogModel from "../schema/AiQueryLog.model";
 import ProductService from "./Product.service";
@@ -28,6 +31,7 @@ const LANG_NAMES: Record<Lang, string> = {
     [Lang.KO]: "Korean",
     [Lang.EN]: "English",
     [Lang.RU]: "Russian",
+    [Lang.UZ]: "Uzbek (Latin script)",
 };
 
 class AiService {
@@ -94,22 +98,23 @@ class AiService {
     private searchPrompt(options: { provinces: string[]; varieties: string[] }): string {
         return [
             "You convert a rice shopper's request into a JSON search filter for a Korean rice marketplace.",
-            "The request may be in Korean, English or Russian.",
+            "The request may be in Korean, English, Russian or Uzbek.",
             "Only include fields the user actually asked for. Omit everything else.",
             `productProvince must be one of: ${options.provinces.join(", ")} (map e.g. 경기도/Gyeonggi/Кёнгидо => 경기).`,
             `productVariety must be one of: ${options.varieties.join(", ")}.`,
             "productCategory: WHITE_RICE (백미/white), BROWN_RICE (현미/brown), GLUTINOUS (찹쌀/sticky).",
-            "Prices are in KRW: 4만원 = 40000, 3万 = 30000, '40 тысяч вон' = 40000.",
+            "Prices are in KRW: 4만원 = 40000, 3万 = 30000, '40 тысяч вон' = 40000, '40 ming von' = 40000.",
             "Use maxPrice for total price limits and maxPricePerKg only for per-kg limits.",
             "productMilledToday = true for 당일도정 / freshly milled / свежий помол.",
             "order: productPrice or productPricePerKg when the user wants cheap items, otherwise createdAt.",
-            "Never drop a price limit: words like 이하 / under / below / до / дешевле always mean maxPrice (or maxPricePerKg if 'per kg').",
+            "Never drop a price limit: words like 이하 / under / below / до / дешевле / gacha / arzon always mean maxPrice (or maxPricePerKg if 'per kg' / 'kg uchun').",
             "",
             "Examples:",
             '"경기 당일도정 쌀 4만원 이하" => {"productProvince":"경기","productMilledToday":true,"maxPrice":40000}',
             '"cheapest organic brown rice per kg" => {"productCategory":"BROWN_RICE","productCertifications":["ORGANIC"],"order":"productPricePerKg"}',
             '"белый рис 10 кг до 35 тысяч вон" => {"productCategory":"WHITE_RICE","productWeightKg":10,"maxPrice":35000}',
             '"전북 신동진 kg당 3500원 이하" => {"productProvince":"전북","productVariety":"신동진","maxPricePerKg":3500}',
+            '"Kyonggi yangi oqlangan guruch 40 ming vongacha" => {"productProvince":"경기","productMilledToday":true,"maxPrice":40000}',
         ].join("\n");
     }
 
@@ -141,7 +146,7 @@ class AiService {
         const filter: ProductInquiry = {
             order: ORDERS.includes(raw.order) ? raw.order : "createdAt",
             page: 1,
-            limit: 20,
+            limit: AI_RESULT_LIMIT,
         };
         // AI ba'zan sonni "40000" ko'rinishida (matn) qaytaradi => songa aylantiramiz
         const toNumber = (v: unknown) => (typeof v === "string" ? Number(v.replace(/,/g, "")) : v);
@@ -176,20 +181,21 @@ class AiService {
      */
     private extractPriceLimit(query: string): { amount: number; perKg: boolean } | null {
         const text = query.toLowerCase().replace(/,/g, "");
-        const hasLimitWord = /(이하|미만|까지|under|below|less than|max|cheaper than|до|дешевле|не дороже)/.test(text);
+        const hasLimitWord = /(이하|미만|까지|under|below|less than|max|cheaper than|до|дешевле|не дороже|gacha|dan arzon|oshmagan)/.test(text);
         if (!hasLimitWord) return null;
 
         const patterns: [RegExp, number][] = [
             [/(\d+(?:\.\d+)?)\s*만\s*원?/, 10000],               // 4만원, 3.5만
             [/(\d+(?:\.\d+)?)\s*천\s*원?/, 1000],                // 3천원
             [/(\d+(?:\.\d+)?)\s*(?:тыс|тысяч)/, 1000],            // 35 тысяч
+            [/(\d+(?:\.\d+)?)\s*ming/, 1000],                     // 40 ming (o'zbekcha)
             [/(\d+(?:\.\d+)?)\s*k\b/, 1000],                      // 40k
             [/(\d{3,})\s*(?:원|won|krw|вон|₩)?/, 1],                 // 40000원
         ];
         for (const [regex, multiplier] of patterns) {
             const match = text.match(regex);
             if (match) {
-                const perKg = /(kg당|키로당|per kg|\/kg|за кг|за килограмм)/.test(text);
+                const perKg = /(kg당|키로당|per kg|\/kg|за кг|за килограмм|kg uchun|kilosi)/.test(text);
                 return { amount: Math.round(Number(match[1]) * multiplier), perKg };
             }
         }
@@ -252,6 +258,47 @@ class AiService {
         });
     }
 
+    /** ===================== 3. SUPPORT CHAT ===================== */
+
+    /**
+     * Mijozga AI javobi. history — oxirgi xabarlar (eski => yangi).
+     * fallback=true — ish vaqtida operator 2 daqiqa javob bermadi.
+     */
+    public async chatReply(
+        history: { sender: ChatSender; text: string }[],
+        lang: Lang,
+        fallback: boolean
+    ): Promise<string> {
+        const options = await this.productService.getFilterOptions();
+        const roles: Record<ChatSender, string> = {
+            [ChatSender.USER]: "Customer",
+            [ChatSender.OPERATOR]: "Human operator",
+            [ChatSender.AI]: "Assistant",
+            [ChatSender.SYSTEM]: "System",
+        };
+        const transcript =
+            history.map((m) => `${roles[m.sender]}: ${m.text}`).join("\n") + "\nAssistant:";
+
+        const systemInstruction = [
+            "You are 'KRE AI', the customer support assistant of KRE AI Market — a Korean rice marketplace demo built for Korea Rice Exchange (한국미곡거래소).",
+            `Answer in the language of the customer's last message; if unclear, use ${LANG_NAMES[lang]}. Be friendly and concise: 2-5 sentences, plain text, no markdown.`,
+            "What you know:",
+            `- Products: rice from Korean RPCs and rice mills. Types: white rice (백미), brown rice (현미), sticky rice (찹쌀). Regions: ${options.provinces.join(", ")}. Varieties: ${options.varieties.join(", ")}.`,
+            "- 당일도정 = milled on the day of shipping (fresher taste). GAP = good agricultural practices, HACCP = food safety system, 친환경/organic = eco-friendly certified.",
+            "- Market page: AI search — the customer types a sentence like '경기 당일도정 쌀 4만원 이하' and AI finds matching rice. Results are paginated, 16 per page.",
+            "- Prices page: wholesale/retail price chart for a 20kg bag (30/60/90 days) and an AI market report.",
+            "- The site supports Korean, English, Russian and Uzbek.",
+            "- Human support hours: Monday-Friday 09:00-18:00 Korea time (KST). Outside these hours you (AI) answer.",
+            "Rules: you cannot place orders, take payments, process refunds or see personal account data. For those, ask the customer to contact a human operator during support hours.",
+            "Never invent prices, stock numbers, delivery dates or policies. If you do not know, say so and suggest the AI search or a human operator.",
+            fallback
+                ? "IMPORTANT: it is support hours but all human operators are busy. Start by briefly saying operators are busy and one will join soon, then help as much as you can."
+                : "",
+        ].join("\n");
+
+        return this.askText(systemInstruction, transcript);
+    }
+
     /** ===================== Gemini yordamchilari ===================== */
 
     private async askJson(systemInstruction: string, userText: string, schema: object): Promise<T> {
@@ -280,28 +327,35 @@ class AiService {
      * baribir bo'lmasa — keyingi modelga o'tiladi.
      */
     private async generate(contents: string, config: GenerateContentConfig): Promise<string> {
+        const deadline = Date.now() + GEMINI_TOTAL_TIMEOUT;
+
         for (const model of GEMINI_MODELS) {
             for (let attempt = 1; attempt <= GEMINI_RETRIES; attempt++) {
+                const remaining = deadline - Date.now();
+                if (remaining < 1500) {
+                    console.log("Gemini: umumiy vaqt chegarasi tugadi");
+                    throw new Errors(HttpCode.SERVICE_UNAVAILABLE, Message.AI_FAILED);
+                }
                 try {
                     const started = Date.now();
                     const response = await this.ai.models.generateContent({
                         model,
                         contents,
-                        config: { ...config, abortSignal: AbortSignal.timeout(GEMINI_TIMEOUT) },
+                        config: { ...config, abortSignal: AbortSignal.timeout(Math.min(GEMINI_TIMEOUT, remaining)) },
                     });
                     console.log(`Gemini [${model}] ${Date.now() - started}ms`);
                     return response.text ?? "";
                 } catch (err) {
                     const status = (err as { status?: number }).status;
                     const name = (err as Error).name;
-                    console.log(`Gemini error [${model}, attempt ${attempt}]: ${status ?? name}`);
+                    const message = String((err as Error).message ?? "").replace(/\s+/g, " ").slice(0, 160);
+                    console.log(`Gemini error [${model}, attempt ${attempt}]: ${status ?? name} — ${message}`);
 
-                    // Timeout => bu model hozir sekin, kutib o'tirmasdan keyingisiga
+                    // Timeout => model sekin; 429 => limit tugagan (kutish foyda bermaydi); 404/403 => model yo'q
                     if (name === "TimeoutError" || name === "AbortError") break;
+                    if (status === 429 || status === 404 || status === 403) break;
 
-
-                    const temporary = status === 503 || status === 429 || status === 500;
-                    if (status === 404 || status === 403) break; // model yo'q / ruxsat yo'q => keyingi model
+                    const temporary = status === 503 || status === 500;
                     if (!temporary) throw new Errors(HttpCode.SERVICE_UNAVAILABLE, Message.AI_FAILED);
                     if (attempt < GEMINI_RETRIES) await this.sleep(GEMINI_RETRY_DELAY * attempt);
                 }

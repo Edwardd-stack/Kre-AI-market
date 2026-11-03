@@ -4,6 +4,7 @@ import { Lang } from "../enums/ai.enum";
 import ko from "./locales/ko";
 import en from "./locales/en";
 import ru from "./locales/ru";
+import uz from "./locales/uz";
 
 const STORAGE_KEY = "kre-lang";
 
@@ -22,6 +23,7 @@ i18n.use(initReactI18next).init({
     ko: { translation: ko },
     en: { translation: en },
     ru: { translation: ru },
+    uz: { translation: uz },
   },
   lng: savedLang(),
   fallbackLng: Lang.KO,

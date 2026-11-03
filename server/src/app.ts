@@ -8,7 +8,8 @@ import { MORGAN_FORMAT } from "./libs/config";
 const app = express();
 app.use(express.json());
 app.use(cors({ origin: true }));
-app.use(morgan(MORGAN_FORMAT));
+// Polling har 3 soniyada so'rov yuboradi — o'zgarmagan (304) javoblar terminalni to'ldirmasin
+app.use(morgan(MORGAN_FORMAT, { skip: (req, res) => res.statusCode === 304 }));
 
 /** ROUTERS **/
 app.use("/", router); // SPA: REACT .. (CSR)

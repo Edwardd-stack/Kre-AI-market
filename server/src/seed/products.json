@@ -10,7 +10,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "김제농협 RPC",
-    "productLeftCount": 130
+    "productLeftCount": 130,
+    "productImages": [
+      "/images/products/white-1.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -23,7 +26,10 @@
     "productMilledToday": true,
     "productCertifications": [],
     "productSellerName": "김제농협 RPC",
-    "productLeftCount": 284
+    "productLeftCount": 284,
+    "productImages": [
+      "/images/products/white-2.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -39,7 +45,10 @@
       "ORGANIC"
     ],
     "productSellerName": "익산 미곡종합처리장",
-    "productLeftCount": 124
+    "productLeftCount": 124,
+    "productImages": [
+      "/images/products/white-3.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -52,7 +61,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "익산 미곡종합처리장",
-    "productLeftCount": 284
+    "productLeftCount": 284,
+    "productImages": [
+      "/images/products/white-4.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -68,7 +80,10 @@
       "ORGANIC"
     ],
     "productSellerName": "김포 정미소",
-    "productLeftCount": 8
+    "productLeftCount": 8,
+    "productImages": [
+      "/images/products/white-1.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -83,7 +98,10 @@
       "ORGANIC"
     ],
     "productSellerName": "김포 정미소",
-    "productLeftCount": 147
+    "productLeftCount": 147,
+    "productImages": [
+      "/images/products/white-2.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -98,7 +116,10 @@
       "GAP"
     ],
     "productSellerName": "평택농협 RPC",
-    "productLeftCount": 54
+    "productLeftCount": 54,
+    "productImages": [
+      "/images/products/white-3.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -113,7 +134,10 @@
       "ORGANIC"
     ],
     "productSellerName": "평택농협 RPC",
-    "productLeftCount": 27
+    "productLeftCount": 27,
+    "productImages": [
+      "/images/products/white-4.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -126,7 +150,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "철원 미곡종합처리장",
-    "productLeftCount": 198
+    "productLeftCount": 198,
+    "productImages": [
+      "/images/products/white-1.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -141,7 +168,10 @@
       "ORGANIC"
     ],
     "productSellerName": "철원 미곡종합처리장",
-    "productLeftCount": 190
+    "productLeftCount": 190,
+    "productImages": [
+      "/images/products/white-2.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -154,7 +184,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "여주 쌀 RPC",
-    "productLeftCount": 121
+    "productLeftCount": 121,
+    "productImages": [
+      "/images/products/white-3.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -167,7 +200,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "여주 쌀 RPC",
-    "productLeftCount": 56
+    "productLeftCount": 56,
+    "productImages": [
+      "/images/products/white-4.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -183,7 +219,10 @@
       "ORGANIC"
     ],
     "productSellerName": "이천 임금님표 RPC",
-    "productLeftCount": 186
+    "productLeftCount": 186,
+    "productImages": [
+      "/images/products/white-1.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -198,7 +237,10 @@
       "ORGANIC"
     ],
     "productSellerName": "이천 임금님표 RPC",
-    "productLeftCount": 41
+    "productLeftCount": 41,
+    "productImages": [
+      "/images/products/white-2.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -213,7 +255,10 @@
       "ORGANIC"
     ],
     "productSellerName": "당진 해나루 RPC",
-    "productLeftCount": 88
+    "productLeftCount": 88,
+    "productImages": [
+      "/images/products/white-3.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -228,7 +273,10 @@
       "ORGANIC"
     ],
     "productSellerName": "당진 해나루 RPC",
-    "productLeftCount": 117
+    "productLeftCount": 117,
+    "productImages": [
+      "/images/products/white-4.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -241,7 +289,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "해남 땅끝 RPC",
-    "productLeftCount": 21
+    "productLeftCount": 21,
+    "productImages": [
+      "/images/products/white-1.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -257,7 +308,10 @@
       "HACCP"
     ],
     "productSellerName": "해남 땅끝 RPC",
-    "productLeftCount": 295
+    "productLeftCount": 295,
+    "productImages": [
+      "/images/products/white-2.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -272,7 +326,10 @@
       "GAP"
     ],
     "productSellerName": "의성 정미소",
-    "productLeftCount": 207
+    "productLeftCount": 207,
+    "productImages": [
+      "/images/products/white-3.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -288,7 +345,10 @@
       "HACCP"
     ],
     "productSellerName": "의성 정미소",
-    "productLeftCount": 292
+    "productLeftCount": 292,
+    "productImages": [
+      "/images/products/white-4.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -304,7 +364,10 @@
       "ORGANIC"
     ],
     "productSellerName": "상주농협 RPC",
-    "productLeftCount": 75
+    "productLeftCount": 75,
+    "productImages": [
+      "/images/products/white-1.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -317,7 +380,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "상주농협 RPC",
-    "productLeftCount": 61
+    "productLeftCount": 61,
+    "productImages": [
+      "/images/products/white-2.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -332,7 +398,10 @@
       "ORGANIC"
     ],
     "productSellerName": "안성 미곡처리장",
-    "productLeftCount": 37
+    "productLeftCount": 37,
+    "productImages": [
+      "/images/products/white-3.webp"
+    ]
   },
   {
     "productCategory": "WHITE_RICE",
@@ -348,7 +417,10 @@
       "ORGANIC"
     ],
     "productSellerName": "안성 미곡처리장",
-    "productLeftCount": 10
+    "productLeftCount": 10,
+    "productImages": [
+      "/images/products/white-4.webp"
+    ]
   },
   {
     "productCategory": "BROWN_RICE",
@@ -361,7 +433,10 @@
     "productMilledToday": false,
     "productCertifications": [],
     "productSellerName": "김제농협 RPC",
-    "productLeftCount": 279
+    "productLeftCount": 279,
+    "productImages": [
+      "/images/products/brown-1.webp"
+    ]
   },
   {
     "productCategory": "BROWN_RICE",
@@ -376,7 +451,10 @@
       "GAP"
     ],
     "productSellerName": "철원 미곡종합처리장",
-    "productLeftCount": 85
+    "productLeftCount": 85,
+    "productImages": [
+      "/images/products/brown-2.webp"
+    ]
   },
   {
     "productCategory": "BROWN_RICE",
@@ -391,7 +469,10 @@
       "ORGANIC"
     ],
     "productSellerName": "해남 땅끝 RPC",
-    "productLeftCount": 264
+    "productLeftCount": 264,
+    "productImages": [
+      "/images/products/brown-3.webp"
+    ]
   },
   {
     "productCategory": "BROWN_RICE",
@@ -406,7 +487,10 @@
       "ORGANIC"
     ],
     "productSellerName": "의성 정미소",
-    "productLeftCount": 106
+    "productLeftCount": 106,
+    "productImages": [
+      "/images/products/brown-1.webp"
+    ]
   },
   {
     "productCategory": "GLUTINOUS",
@@ -421,7 +505,10 @@
       "ORGANIC"
     ],
     "productSellerName": "익산 미곡종합처리장",
-    "productLeftCount": 276
+    "productLeftCount": 276,
+    "productImages": [
+      "/images/products/sticky-1.webp"
+    ]
   },
   {
     "productCategory": "GLUTINOUS",
@@ -436,7 +523,10 @@
       "HACCP"
     ],
     "productSellerName": "당진 해나루 RPC",
-    "productLeftCount": 190
+    "productLeftCount": 190,
+    "productImages": [
+      "/images/products/sticky-2.webp"
+    ]
   },
   {
     "productCategory": "GLUTINOUS",
@@ -451,6 +541,9 @@
       "GAP"
     ],
     "productSellerName": "상주농협 RPC",
-    "productLeftCount": 295
+    "productLeftCount": 295,
+    "productImages": [
+      "/images/products/sticky-3.webp"
+    ]
   }
 ]

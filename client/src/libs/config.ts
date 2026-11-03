@@ -1,8 +1,10 @@
 export const serverApi: string = import.meta.env.VITE_API_URL ?? "http://localhost:3005";
 
-/** Narxni tanlangan tilda formatlash: 40000 => "40,000원" / "₩40,000" */
+const LOCALES: Record<string, string> = { ko: "ko-KR", en: "en-US", ru: "ru-RU", uz: "uz-Latn-UZ" };
+
+/** Narxni tanlangan tilda formatlash: 40000 => "₩40,000" / "40 000 ₩" */
 export const formatWon = (amount: number, lang: string): string =>
-  new Intl.NumberFormat(lang === "ko" ? "ko-KR" : lang === "ru" ? "ru-RU" : "en-US", {
+  new Intl.NumberFormat(LOCALES[lang] ?? "en-US", {
     style: "currency",
     currency: "KRW",
     maximumFractionDigits: 0,

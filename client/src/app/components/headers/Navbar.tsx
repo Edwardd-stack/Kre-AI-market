@@ -10,6 +10,7 @@ export default function Navbar() {
   const links = [
     { to: "/", label: t("nav.market") },
     { to: "/prices", label: t("nav.prices") },
+    { to: "/support", label: t("nav.support") },
   ];
 
   return (

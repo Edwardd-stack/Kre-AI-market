@@ -18,6 +18,8 @@ export enum Message {
 
     INVALID_QUERY = "Invalid query parameters!",
     AI_FAILED = "AI service is not available, please try again!",
+    INVALID_MESSAGE = "Message is empty or too long!",
+    NOT_OPERATOR = "Operator access denied!",
 }
 
 class Errors extends Error {
