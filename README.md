@@ -76,14 +76,7 @@ UI 전체와 LLM 답변이 한국어 / English / Русский / O'zbekcha 를 
 
 ## 🏗 아키텍처 · Architecture
 
-```mermaid
-flowchart LR
-    U[👤 User] --> FE["React + Vite + MUI<br/>(Vercel)"]
-    O[👩‍💼 Operator] --> FE
-    FE -- REST / axios --> BE["Node.js + Express 5 + TypeScript<br/>(Render)"]
-    BE -- Mongoose --> DB[("MongoDB Atlas")]
-    BE -- "@google/genai" --> AI["LLM · Google Gemini<br/>3.5 Flash-Lite"]
-```
+<p align="center"><img src="docs/architecture.png" alt="Architecture" width="100%" /></p>
 
 ```
 router.ts → controllers/*.controller.ts → models/*.service.ts → schema/*.model.ts
@@ -93,53 +86,6 @@ router.ts → controllers/*.controller.ts → models/*.service.ts → schema/*.m
 
 <p align="center"><img src="docs/erd.png" alt="KRE AI Market ER diagram" width="100%" /></p>
 
-<details>
-<summary>Mermaid 버전 · Mermaid version</summary>
-
-```mermaid
-erDiagram
-    products {
-        ObjectId _id
-        string productCategory "WHITE_RICE | BROWN_RICE | GLUTINOUS"
-        string productName
-        string productVariety "품종"
-        string productProvince "산지"
-        number productWeightKg
-        number productPrice
-        number productPricePerKg "pre-save hook"
-        boolean productMilledToday "당일도정"
-        string[] productCertifications "GAP | HACCP | ORGANIC"
-        string[] productImages
-    }
-    pricehistories {
-        date priceDate
-        string priceMarketType "WHOLESALE | RETAIL"
-        string priceGrade "HIGH | MEDIUM"
-        number priceAmount "KRW / 20kg"
-    }
-    aiquerylogs {
-        string logQuery
-        string logLang
-        object logParsedFilter
-        number logResultCount
-    }
-    chatsessions ||--o{ chatmessages : has
-    chatsessions {
-        string chatNickname
-        string chatLang
-        boolean chatAwaitingOperator
-        date chatAwaitingSince
-        number chatUnreadByOperator
-    }
-    chatmessages {
-        ObjectId sessionId
-        string messageSender "USER | OPERATOR | AI | SYSTEM"
-        string messageText
-        boolean messageIsFallback
-    }
-```
-
-</details>
 
 ## 🔌 API
 
