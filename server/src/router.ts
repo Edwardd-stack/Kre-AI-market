@@ -5,6 +5,11 @@ import priceController from "./controllers/price.controller";
 import aiController from "./controllers/ai.controller";
 import chatController from "./controllers/chat.controller";
 
+/** Health — Render health check va uptime monitoring uchun **/
+router.get("/health", (req, res) => {
+  res.json({ ok: true });
+});
+
 /** Product **/
 router.get("/product/all", productController.getProducts);
 router.get("/product/:id", productController.getProduct);
@@ -23,8 +28,20 @@ router.get("/chat/:id/messages", chatController.getThread);
 router.post("/chat/:id/message", chatController.sendMessage);
 
 /** Support chat — operator (parol bilan) **/
-router.get("/support/sessions", chatController.verifyOperator, chatController.getSessions);
-router.get("/support/:id/messages", chatController.verifyOperator, chatController.getOperatorThread);
-router.post("/support/:id/message", chatController.verifyOperator, chatController.sendOperatorMessage);
+router.get(
+  "/support/sessions",
+  chatController.verifyOperator,
+  chatController.getSessions,
+);
+router.get(
+  "/support/:id/messages",
+  chatController.verifyOperator,
+  chatController.getOperatorThread,
+);
+router.post(
+  "/support/:id/message",
+  chatController.verifyOperator,
+  chatController.sendOperatorMessage,
+);
 
 export default router;
