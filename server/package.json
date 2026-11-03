@@ -5,6 +5,7 @@
   "main": "src/server.ts",
   "scripts": {
     "start": "ts-node src/server.ts",
+    "seed": "ts-node src/seed/seed.ts",
     "dev": "nodemon --exec ts-node src/server.ts",
     "build": "tsc"
   },

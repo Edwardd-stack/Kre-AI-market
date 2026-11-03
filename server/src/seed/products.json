@@ -1,0 +1,456 @@
+[
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "김제 신동진 백미 10kg",
+    "productVariety": "신동진",
+    "productProvince": "전북",
+    "productRegion": "김제",
+    "productWeightKg": 10,
+    "productPrice": 31700,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "김제농협 RPC",
+    "productLeftCount": 130
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "김제 신동진 백미 20kg 당일도정",
+    "productVariety": "신동진",
+    "productProvince": "전북",
+    "productRegion": "김제",
+    "productWeightKg": 20,
+    "productPrice": 64300,
+    "productMilledToday": true,
+    "productCertifications": [],
+    "productSellerName": "김제농협 RPC",
+    "productLeftCount": 284
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "익산 신동진 백미 10kg 당일도정",
+    "productVariety": "신동진",
+    "productProvince": "전북",
+    "productRegion": "익산",
+    "productWeightKg": 10,
+    "productPrice": 35900,
+    "productMilledToday": true,
+    "productCertifications": [
+      "GAP",
+      "ORGANIC"
+    ],
+    "productSellerName": "익산 미곡종합처리장",
+    "productLeftCount": 124
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "익산 신동진 백미 4kg",
+    "productVariety": "신동진",
+    "productProvince": "전북",
+    "productRegion": "익산",
+    "productWeightKg": 4,
+    "productPrice": 13500,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "익산 미곡종합처리장",
+    "productLeftCount": 284
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "김포 추청 백미 10kg 당일도정",
+    "productVariety": "추청",
+    "productProvince": "경기",
+    "productRegion": "김포",
+    "productWeightKg": 10,
+    "productPrice": 43200,
+    "productMilledToday": true,
+    "productCertifications": [
+      "HACCP",
+      "ORGANIC"
+    ],
+    "productSellerName": "김포 정미소",
+    "productLeftCount": 8
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "김포 추청 백미 20kg",
+    "productVariety": "추청",
+    "productProvince": "경기",
+    "productRegion": "김포",
+    "productWeightKg": 20,
+    "productPrice": 76900,
+    "productMilledToday": false,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "김포 정미소",
+    "productLeftCount": 147
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "평택 추청 백미 10kg 당일도정",
+    "productVariety": "추청",
+    "productProvince": "경기",
+    "productRegion": "평택",
+    "productWeightKg": 10,
+    "productPrice": 35000,
+    "productMilledToday": true,
+    "productCertifications": [
+      "GAP"
+    ],
+    "productSellerName": "평택농협 RPC",
+    "productLeftCount": 54
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "평택 추청 백미 4kg 당일도정",
+    "productVariety": "추청",
+    "productProvince": "경기",
+    "productRegion": "평택",
+    "productWeightKg": 4,
+    "productPrice": 17700,
+    "productMilledToday": true,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "평택농협 RPC",
+    "productLeftCount": 27
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "철원 오대 백미 10kg",
+    "productVariety": "오대",
+    "productProvince": "강원",
+    "productRegion": "철원",
+    "productWeightKg": 10,
+    "productPrice": 37300,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "철원 미곡종합처리장",
+    "productLeftCount": 198
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "철원 오대 백미 20kg 당일도정",
+    "productVariety": "오대",
+    "productProvince": "강원",
+    "productRegion": "철원",
+    "productWeightKg": 20,
+    "productPrice": 84500,
+    "productMilledToday": true,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "철원 미곡종합처리장",
+    "productLeftCount": 190
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "여주 고시히카리 백미 10kg",
+    "productVariety": "고시히카리",
+    "productProvince": "경기",
+    "productRegion": "여주",
+    "productWeightKg": 10,
+    "productPrice": 39900,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "여주 쌀 RPC",
+    "productLeftCount": 121
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "여주 고시히카리 백미 4kg",
+    "productVariety": "고시히카리",
+    "productProvince": "경기",
+    "productRegion": "여주",
+    "productWeightKg": 4,
+    "productPrice": 18700,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "여주 쌀 RPC",
+    "productLeftCount": 56
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "이천 해들 백미 10kg 당일도정",
+    "productVariety": "해들",
+    "productProvince": "경기",
+    "productRegion": "이천",
+    "productWeightKg": 10,
+    "productPrice": 45200,
+    "productMilledToday": true,
+    "productCertifications": [
+      "HACCP",
+      "ORGANIC"
+    ],
+    "productSellerName": "이천 임금님표 RPC",
+    "productLeftCount": 186
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "이천 해들 백미 20kg 당일도정",
+    "productVariety": "해들",
+    "productProvince": "경기",
+    "productRegion": "이천",
+    "productWeightKg": 20,
+    "productPrice": 94700,
+    "productMilledToday": true,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "이천 임금님표 RPC",
+    "productLeftCount": 41
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "당진 삼광 백미 10kg",
+    "productVariety": "삼광",
+    "productProvince": "충남",
+    "productRegion": "당진",
+    "productWeightKg": 10,
+    "productPrice": 40100,
+    "productMilledToday": false,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "당진 해나루 RPC",
+    "productLeftCount": 88
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "당진 삼광 백미 4kg",
+    "productVariety": "삼광",
+    "productProvince": "충남",
+    "productRegion": "당진",
+    "productWeightKg": 4,
+    "productPrice": 17300,
+    "productMilledToday": false,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "당진 해나루 RPC",
+    "productLeftCount": 117
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "해남 새청무 백미 10kg",
+    "productVariety": "새청무",
+    "productProvince": "전남",
+    "productRegion": "해남",
+    "productWeightKg": 10,
+    "productPrice": 28700,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "해남 땅끝 RPC",
+    "productLeftCount": 21
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "해남 새청무 백미 20kg",
+    "productVariety": "새청무",
+    "productProvince": "전남",
+    "productRegion": "해남",
+    "productWeightKg": 20,
+    "productPrice": 55500,
+    "productMilledToday": false,
+    "productCertifications": [
+      "GAP",
+      "HACCP"
+    ],
+    "productSellerName": "해남 땅끝 RPC",
+    "productLeftCount": 295
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "의성 일품 백미 10kg",
+    "productVariety": "일품",
+    "productProvince": "경북",
+    "productRegion": "의성",
+    "productWeightKg": 10,
+    "productPrice": 30900,
+    "productMilledToday": false,
+    "productCertifications": [
+      "GAP"
+    ],
+    "productSellerName": "의성 정미소",
+    "productLeftCount": 207
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "의성 일품 백미 4kg",
+    "productVariety": "일품",
+    "productProvince": "경북",
+    "productRegion": "의성",
+    "productWeightKg": 4,
+    "productPrice": 12700,
+    "productMilledToday": false,
+    "productCertifications": [
+      "GAP",
+      "HACCP"
+    ],
+    "productSellerName": "의성 정미소",
+    "productLeftCount": 292
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "상주 영호진미 백미 10kg",
+    "productVariety": "영호진미",
+    "productProvince": "경북",
+    "productRegion": "상주",
+    "productWeightKg": 10,
+    "productPrice": 35200,
+    "productMilledToday": false,
+    "productCertifications": [
+      "HACCP",
+      "ORGANIC"
+    ],
+    "productSellerName": "상주농협 RPC",
+    "productLeftCount": 75
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "상주 영호진미 백미 20kg",
+    "productVariety": "영호진미",
+    "productProvince": "경북",
+    "productRegion": "상주",
+    "productWeightKg": 20,
+    "productPrice": 61700,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "상주농협 RPC",
+    "productLeftCount": 61
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "안성 참드림 백미 10kg 당일도정",
+    "productVariety": "참드림",
+    "productProvince": "경기",
+    "productRegion": "안성",
+    "productWeightKg": 10,
+    "productPrice": 39000,
+    "productMilledToday": true,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "안성 미곡처리장",
+    "productLeftCount": 37
+  },
+  {
+    "productCategory": "WHITE_RICE",
+    "productName": "안성 참드림 백미 4kg 당일도정",
+    "productVariety": "참드림",
+    "productProvince": "경기",
+    "productRegion": "안성",
+    "productWeightKg": 4,
+    "productPrice": 17800,
+    "productMilledToday": true,
+    "productCertifications": [
+      "HACCP",
+      "ORGANIC"
+    ],
+    "productSellerName": "안성 미곡처리장",
+    "productLeftCount": 10
+  },
+  {
+    "productCategory": "BROWN_RICE",
+    "productName": "김제 신동진 현미 10kg",
+    "productVariety": "신동진",
+    "productProvince": "전북",
+    "productRegion": "김제",
+    "productWeightKg": 10,
+    "productPrice": 35600,
+    "productMilledToday": false,
+    "productCertifications": [],
+    "productSellerName": "김제농협 RPC",
+    "productLeftCount": 279
+  },
+  {
+    "productCategory": "BROWN_RICE",
+    "productName": "철원 오대 현미 10kg",
+    "productVariety": "오대",
+    "productProvince": "강원",
+    "productRegion": "철원",
+    "productWeightKg": 10,
+    "productPrice": 39400,
+    "productMilledToday": false,
+    "productCertifications": [
+      "GAP"
+    ],
+    "productSellerName": "철원 미곡종합처리장",
+    "productLeftCount": 85
+  },
+  {
+    "productCategory": "BROWN_RICE",
+    "productName": "해남 새청무 현미 10kg",
+    "productVariety": "새청무",
+    "productProvince": "전남",
+    "productRegion": "해남",
+    "productWeightKg": 10,
+    "productPrice": 39200,
+    "productMilledToday": false,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "해남 땅끝 RPC",
+    "productLeftCount": 264
+  },
+  {
+    "productCategory": "BROWN_RICE",
+    "productName": "의성 일품 현미 10kg",
+    "productVariety": "일품",
+    "productProvince": "경북",
+    "productRegion": "의성",
+    "productWeightKg": 10,
+    "productPrice": 39500,
+    "productMilledToday": false,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "의성 정미소",
+    "productLeftCount": 106
+  },
+  {
+    "productCategory": "GLUTINOUS",
+    "productName": "익산 신동진 찹쌀 4kg 당일도정",
+    "productVariety": "신동진",
+    "productProvince": "전북",
+    "productRegion": "익산",
+    "productWeightKg": 4,
+    "productPrice": 22900,
+    "productMilledToday": true,
+    "productCertifications": [
+      "ORGANIC"
+    ],
+    "productSellerName": "익산 미곡종합처리장",
+    "productLeftCount": 276
+  },
+  {
+    "productCategory": "GLUTINOUS",
+    "productName": "당진 삼광 찹쌀 4kg",
+    "productVariety": "삼광",
+    "productProvince": "충남",
+    "productRegion": "당진",
+    "productWeightKg": 4,
+    "productPrice": 19000,
+    "productMilledToday": false,
+    "productCertifications": [
+      "HACCP"
+    ],
+    "productSellerName": "당진 해나루 RPC",
+    "productLeftCount": 190
+  },
+  {
+    "productCategory": "GLUTINOUS",
+    "productName": "상주 영호진미 찹쌀 4kg",
+    "productVariety": "영호진미",
+    "productProvince": "경북",
+    "productRegion": "상주",
+    "productWeightKg": 4,
+    "productPrice": 17300,
+    "productMilledToday": false,
+    "productCertifications": [
+      "GAP"
+    ],
+    "productSellerName": "상주농협 RPC",
+    "productLeftCount": 295
+  }
+]
