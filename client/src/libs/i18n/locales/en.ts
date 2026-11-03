@@ -1,0 +1,70 @@
+import type ko from "./ko";
+
+const en: typeof ko = {
+  nav: { market: "Market", prices: "Prices" },
+  hero: {
+    badge: "AI rice search",
+    title: "Find rice the way you talk",
+    subtitle: "Region, variety, price, freshly milled — AI understands your sentence and finds matching rice.",
+  },
+  search: {
+    placeholder: "e.g. cheapest organic brown rice per kg",
+    button: "AI Search",
+    examplesTitle: "Try these",
+    examples: ["cheapest organic brown rice per kg", "freshly milled rice from Gyeonggi under 40k", "Shindongjin 10kg from Jeonbuk"],
+    understood: "What AI understood",
+    noFilter: "No conditions found — showing all products",
+    results: "{{count}} results",
+    empty: "No products match. Try different conditions.",
+    loading: "AI is searching…",
+    reset: "Show all",
+  },
+  filter: {
+    productProvince: "Region",
+    productVariety: "Variety",
+    productCategory: "Type",
+    productWeightKg: "Weight",
+    maxPrice: "Max price",
+    maxPricePerKg: "Max per kg",
+    productMilledToday: "Freshly milled",
+    productCertifications: "Certified",
+    order: "Sort",
+  },
+  order: {
+    createdAt: "Newest",
+    productPrice: "Lowest price",
+    productPricePerKg: "Lowest price per kg",
+  },
+  category: { WHITE_RICE: "White rice", BROWN_RICE: "Brown rice", GLUTINOUS: "Sticky rice" },
+  cert: { GAP: "GAP", HACCP: "HACCP", ORGANIC: "Organic" },
+  product: {
+    perKg: "{{price}} / kg",
+    milledToday: "Milled today",
+    stock: "{{count}} in stock",
+    seller: "Seller",
+  },
+  prices: {
+    title: "Rice prices",
+    subtitle: "Wholesale and retail price trends (20kg) with an AI market report",
+    period: "Period",
+    days: "{{count}} days",
+    chartTitle: "Price trend (20kg)",
+    reportTitle: "AI market report",
+    reportButton: "Generate AI report",
+    reportLoading: "AI is writing the report…",
+    reportNote: "All numbers are calculated on the server; AI only writes the commentary.",
+    change: "Change",
+    avg: "Avg",
+    min: "Min",
+    max: "Max",
+  },
+  market: { WHOLESALE: "Wholesale", RETAIL: "Retail" },
+  grade: { HIGH: "Premium", MEDIUM: "Standard" },
+  footer: {
+    about: "AI portfolio project for Korea Rice Exchange (KRE)",
+    stack: "React · TypeScript · MUI · Node.js · MongoDB · Gemini",
+  },
+  error: { title: "Something went wrong", retry: "Try again" },
+};
+
+export default en;

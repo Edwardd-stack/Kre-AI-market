@@ -1,0 +1,70 @@
+import type ko from "./ko";
+
+const ru: typeof ko = {
+  nav: { market: "Рынок", prices: "Цены" },
+  hero: {
+    badge: "AI-поиск риса",
+    title: "Ищите рис обычными словами",
+    subtitle: "Регион, сорт, цена, свежий помол — AI понимает ваш запрос и находит подходящий рис.",
+  },
+  search: {
+    placeholder: "напр.: белый рис 10 кг до 35 тысяч вон",
+    button: "AI-поиск",
+    examplesTitle: "Попробуйте",
+    examples: ["белый рис 10 кг до 35 тысяч вон", "самый дешёвый органический бурый рис за кг", "рис свежего помола из Кёнгидо"],
+    understood: "Что понял AI",
+    noFilter: "Условия не найдены — показаны все товары",
+    results: "Найдено: {{count}}",
+    empty: "Подходящих товаров нет. Измените условия.",
+    loading: "AI ищет…",
+    reset: "Показать все",
+  },
+  filter: {
+    productProvince: "Регион",
+    productVariety: "Сорт",
+    productCategory: "Вид",
+    productWeightKg: "Вес",
+    maxPrice: "Макс. цена",
+    maxPricePerKg: "Макс. за кг",
+    productMilledToday: "Свежий помол",
+    productCertifications: "Сертификат",
+    order: "Сортировка",
+  },
+  order: {
+    createdAt: "Новые",
+    productPrice: "Дешевле",
+    productPricePerKg: "Дешевле за кг",
+  },
+  category: { WHITE_RICE: "Белый рис", BROWN_RICE: "Бурый рис", GLUTINOUS: "Клейкий рис" },
+  cert: { GAP: "GAP", HACCP: "HACCP", ORGANIC: "Органический" },
+  product: {
+    perKg: "{{price}} / кг",
+    milledToday: "Свежий помол",
+    stock: "В наличии: {{count}}",
+    seller: "Продавец",
+  },
+  prices: {
+    title: "Цены на рис",
+    subtitle: "Оптовые и розничные цены (20 кг) и AI-отчёт о рынке",
+    period: "Период",
+    days: "{{count}} дн.",
+    chartTitle: "Динамика цен (20 кг)",
+    reportTitle: "AI-отчёт о рынке",
+    reportButton: "Создать AI-отчёт",
+    reportLoading: "AI пишет отчёт…",
+    reportNote: "Все цифры считает сервер, AI пишет только комментарий.",
+    change: "Изм.",
+    avg: "Сред.",
+    min: "Мин.",
+    max: "Макс.",
+  },
+  market: { WHOLESALE: "Опт", RETAIL: "Розница" },
+  grade: { HIGH: "Высший", MEDIUM: "Средний" },
+  footer: {
+    about: "AI-портфолио проект для Korea Rice Exchange (KRE)",
+    stack: "React · TypeScript · MUI · Node.js · MongoDB · Gemini",
+  },
+  error: { title: "Произошла ошибка", retry: "Повторить" },
+};
+
+export default ru;
