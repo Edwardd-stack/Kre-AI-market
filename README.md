@@ -91,6 +91,11 @@ router.ts → controllers/*.controller.ts → models/*.service.ts → schema/*.m
 
 ## 🗂 ER 다이어그램 · Data model
 
+<p align="center"><img src="docs/erd.png" alt="KRE AI Market ER diagram" width="100%" /></p>
+
+<details>
+<summary>Mermaid 버전 · Mermaid version</summary>
+
 ```mermaid
 erDiagram
     products {
@@ -133,6 +138,8 @@ erDiagram
         boolean messageIsFallback
     }
 ```
+
+</details>
 
 ## 🔌 API
 
