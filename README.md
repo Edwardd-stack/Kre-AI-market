@@ -9,14 +9,11 @@
 한국미곡거래소(KRE)의 쌀 유통 플랫폼을 모티브로 만든 포트폴리오 프로젝트입니다.<br/>
 A portfolio project inspired by the rice trading platform of Korea Rice Exchange (KRE).
 
-🌐 **[kre-ai-market.vercel.app](https://kre-ai-market.vercel.app)** &nbsp;·&nbsp; 🛠 API: [kre-ai-market.onrender.com](https://kre-ai-market.onrender.com/health)
+🌐 **[kre-ai-market.vercel.app](https://kre-ai-market.vercel.app)** &nbsp;·&nbsp; 🛠 API: [kre-ai-market-api.vercel.app](https://kre-ai-market-api.vercel.app/health)
 
 `한국어` · `English` · `Русский` · `O'zbekcha`
 
 </div>
-
-> ⏳ 백엔드는 Render 무료 플랜을 사용합니다. 첫 요청 시 서버가 깨어나는 데 최대 50초가 걸릴 수 있습니다.<br/>
-> The backend runs on Render's free plan — the very first request may take up to ~50 s while the server wakes up.
 
 ---
 
@@ -69,7 +66,7 @@ UI 전체와 LLM 답변이 한국어 / English / Русский / O'zbekcha 를 
 | 외부 API 장애 (503 / 429 / 지연) | 재시도 + 모델 fallback + 요청당 타임아웃 + 전체 타임아웃, 동일 질문 1시간 캐시 |
 | 서버 위치와 무관한 한국 시간 | `Intl.DateTimeFormat({ timeZone: "Asia/Seoul" })` |
 | 상담원 2분 대기 후 AI 전환 | `setTimeout` 대신 **lazy check** — 서버가 재시작돼도 유실되지 않음 |
-| 무료 서버 슬립 | `/health` 엔드포인트 + Render health check + uptime 모니터 |
+| 서버리스 환경의 DB 연결 | 요청 시 한 번만 연결하고 재사용하는 `connectDb()` (Vercel Functions에서 매 요청마다 새 연결 방지) |
 | 이미지 용량 | 800×600 **WebP** (평균 ~50KB) + `loading="lazy"` |
 
 ---
@@ -109,7 +106,7 @@ router.ts → controllers/*.controller.ts → models/*.service.ts → schema/*.m
 **Frontend** — React 19 · TypeScript · Vite · MUI · React Router · react-i18next · Recharts · Axios<br/>
 **Backend** — Node.js · Express 5 · TypeScript · Mongoose 9 · MongoDB Atlas<br/>
 **AI / LLM** — Google Gemini API (`@google/genai`) · structured output (JSON schema) · prompt engineering (few-shot, system instructions) · LLM output validation · multilingual responses<br/>
-**Deploy** — Vercel (client) · Render (server) · Git flow: `develop` → Pull Request → `master`
+**Deploy** — Vercel (client · server as Vercel Functions) · Git flow: `develop` → Pull Request → `master`
 
 ## 📁 폴더 구조 · Structure
 
