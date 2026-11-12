@@ -1,16 +1,15 @@
 import dotenv from "dotenv";
 dotenv.config();
-import mongoose from "mongoose";
 import app from "./app";
+import { connectDb } from "./libs/utils/db";
 
-mongoose
-  .connect(process.env.MONGO_URL as string, {})
-  // TCP - 1
-  .then((data) => {
+/** Render / lokal: avval bazaga ulanib, keyin portni ochamiz. (Vercel bu faylni emas, app.ts'ni ishlatadi) */
+connectDb()
+  .then(() => {
     console.log("MongoDB connection succeed");
     const PORT = process.env.PORT ?? 3005;
     app.listen(PORT, function () {
       console.info(`The server is running successfully on port: ${PORT} \n`);
     });
   })
-  .catch((err) => console.log("Erron on comnnection MongoDB", err));
+  .catch((err) => console.log("Error on connection MongoDB", err));
